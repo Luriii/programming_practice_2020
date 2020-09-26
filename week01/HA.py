@@ -1,2 +1,2 @@
 print("Hello, MIPT!")
-print("I'vr started learning programming!")
+print("I've started learning programming!")
