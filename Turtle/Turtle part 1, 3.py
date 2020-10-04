@@ -1,0 +1,12 @@
+import turtle
+turtle.penup()
+turtle.setup(1000, 1000)
+turtle.shape("turtle")
+turtle.color("lightgreen")
+turtle.begin_fill()
+turtle.goto(0,-100)
+turtle.pendown()
+turtle.speed(1)
+turtle.circle(150)
+turtle.end_fill()
+turtle.exitonclick()

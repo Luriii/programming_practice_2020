@@ -1,0 +1,20 @@
+import turtle
+import math
+turtle.shape("turtle")
+turtle.color("olive")
+turtle.width(2)
+turtle.speed(5)
+for i in range(10, 110, 10):
+    turtle.forward(i)
+    turtle.left(90)
+    turtle.forward(i)
+    turtle.left(90)
+    turtle.forward(i)
+    turtle.left(90)
+    turtle.forward(i)
+    turtle.right(45)
+    turtle.penup()
+    turtle.forward(5*math.sqrt(2))
+    turtle.left(135)
+    turtle.pendown()
+turtle.exitonclick()
