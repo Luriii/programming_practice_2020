@@ -7,6 +7,7 @@ t.turtlesize(0.5)
 t.pensize(3)
 t.speed(5)
 
+
 def one():
     t.left(90)
     t.forward(40)
@@ -226,4 +227,5 @@ while i <= len(a):
         t.pendown()
         zero()
         i += 1
+
 t.exitonclick()
